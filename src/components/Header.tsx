@@ -11,7 +11,7 @@ const Header: React.FC = () => {
         <img src={headerimg} alt="" />
       </div>
       <div className="flex lg:hidden">
-        <img src={banner_img_mobile} alt="" />
+        <img src={banner_img_mobile} className="w-full" alt="" />
       </div>
       <div className="flex flex-col lg:flex-row gap-[18px] lg:gap-[28px] lg:pl-[48px]">
         <div className="flex items-center justify-center mt-[-54px]">
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-col gap-[12px] text-start mt-0 lg:mt-[24px] px-[16px]">
-          <div>
+          <div className="flex flex-col gap-[4px]">
             <h1 className="font-greatmango font-bold text-[#1B1B1B] text-[24px] leading-[32px] text-center lg:text-start">
               Hi, I’m Oluwatobi Adebola (Tobi Allen)
             </h1>

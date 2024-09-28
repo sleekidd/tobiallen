@@ -51,7 +51,7 @@ const Home: React.FC = () => {
                   <h4 className="uppercase text-[#333333] text-[16px] leading-[24px] font-bold">
                     UI/UX & Front End
                   </h4>
-                  <h5 className="uppercase text-[#878787] text-[12px] leading-[24px] font-bold">
+                  <h5 className="text-start uppercase text-[#878787] text-[12px] leading-[24px] font-bold">
                     Hoski Media | Remote | Canada
                   </h5>
                   <p className="text-[14px] text-[#333333] leading-[22px]">
@@ -66,7 +66,7 @@ const Home: React.FC = () => {
                   <h4 className="uppercase text-[#333333] text-[16px] leading-[24px] font-bold">
                     Product Designer
                   </h4>
-                  <h5 className="uppercase text-[#878787] text-[12px] leading-[24px] font-bold">
+                  <h5 className="text-start uppercase text-[#878787] text-[12px] leading-[24px] font-bold">
                     Mintyn Online Bank | Remote | Nigeria
                   </h5>
                   <p className="text-[14px] text-[#333333] leading-[22px]">
@@ -81,7 +81,7 @@ const Home: React.FC = () => {
                   <h4 className="uppercase text-[#333333] text-[16px] leading-[24px] font-bold">
                     UI/UX Designer
                   </h4>
-                  <h5 className="uppercase text-[#878787] text-[12px] leading-[24px] font-bold">
+                  <h5 className="text-start uppercase text-[#878787] text-[12px] leading-[24px] font-bold">
                     sbsc | Hybrid | Nigeria
                   </h5>
                   <p className="text-[14px] text-[#333333] leading-[22px]">
@@ -99,22 +99,22 @@ const Home: React.FC = () => {
       {/* Features Section */}
       <section className="container mx-auto mb-[56px]">
         <div className="flex flex-col gap-[8px]">
-          <div className="flex flex-row py-[8px]">
+          <div className="flex flex-col lg:flex-row py-[8px] gap-[24px] lg:gap-0">
             <div className="flex flex-col w-full items-start gap-[4px]">
-              <h2 className="font-greatmango font-bold text-[#1B1B1B] text-[24px] leading-[32px]">
+              <h2 className="font-greatmango font-bold text-[#1B1B1B] text-[24px] leading-[32px] text-start">
                 My Project Portfolio
               </h2>
-              <p className="text-[#333333] text-[16px] leading-[24px]">
+              <p className="text-[#333333] text-[16px] leading-[24px] text-start">
                 Lorem ipsum dolor sit amet, consectetur adipiscing.
               </p>
             </div>
-            <div className="flex flex-row justify-end w-full items-end">
+            <div className="flex flex-row lg:justify-end w-full items-end">
               <a href="">View All Projects</a>
             </div>
           </div>
           <div className="flex flex-col gap-[32px]">
-            <div className="flex flex-col lg:flex-row pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[32px]">
-              <div className="flex flex-col w-full max-w-[453px] gap-[16px] pb-[44px]">
+            <div className="flex flex-col lg:flex-row pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[16px] lg:gap-[32px]">
+              <div className="flex flex-col w-full max-w-[453px] gap-[16px] lg:pb-[44px] pr-[32px] lg:pr-[0]">
                 <div className="flex flex-col gap-[8px] items-start">
                   <img src={zoom} alt="" />
                   <p className="text-start">Zero Efforts Creatives</p>
@@ -141,7 +141,7 @@ const Home: React.FC = () => {
             </div>
             <div className="flex flex-col lg:flex-row gap-[32px]">
               <div className="flex flex-col pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[16px]">
-                <div className="flex flex-col w-full max-w-[453px] gap-[16px]">
+                <div className="flex flex-col w-full max-w-[453px] gap-[16px] pr-[32px] lg:pr-[0]">
                   <div className="flex flex-col gap-[8px] items-start">
                     <img src={logopurple} alt="" />
                     <p className="text-start">FCMB</p>
@@ -163,7 +163,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <div className="flex flex-col pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[16px]">
-                <div className="flex flex-col w-full max-w-[453px] gap-[16px]">
+                <div className="flex flex-col w-full max-w-[453px] gap-[16px] pr-[32px] lg:pr-[0]">
                   <div className="flex flex-col gap-[8px] items-start">
                     <img src={logoorange} alt="" />
                     <p className="text-start">Kaloscare</p>
