@@ -1,28 +1,36 @@
 import React from "react";
 import headerimg from "../assets/banner-image.svg";
 import profilepic from "../assets/profilepic.svg";
+import profilepicmobile from '../assets/A7R03071-Edit 1 1 mobile.svg';
+import banner_img_mobile from '../assets/banner-img-mobile.svg';
 
 const Header: React.FC = () => {
   return (
-    <div className="flex flex-col w-full h-[457px] bg-white shadow-custom my-[16px] lg:my-[32px] rounded-[8px]">
-      <div>
+    <div className="flex flex-col w-full h-[511px] lg:h-[457px] bg-white shadow-custom my-[16px] lg:my-[32px] rounded-[8px]">
+      <div className="hidden lg:flex">
         <img src={headerimg} alt="" />
       </div>
-      <div className="flex flex-col lg:flex-row gap-[28px] pl-[48px]">
-        <div className="flex mt-[-54px]">
-          <div className="shadow-custom rounded-[100%] border-[4px] border-white">
+      <div className="flex lg:hidden">
+        <img src={banner_img_mobile} alt="" />
+      </div>
+      <div className="flex flex-col lg:flex-row gap-[18px] lg:gap-[28px] lg:pl-[48px]">
+        <div className="flex items-center justify-center mt-[-54px]">
+          <div className="hidden lg:flex shadow-custom rounded-[100%] border-[4px] border-white">
             <img src={profilepic} alt="" />
           </div>
+          <div className="flex lg:hidden shadow-custom rounded-[100%] border-[2px] border-white">
+            <img src={profilepicmobile} alt="" />
+          </div>
         </div>
-        <div className="flex flex-col gap-[12px] text-start mt-[24px]">
+        <div className="flex flex-col gap-[12px] text-start mt-0 lg:mt-[24px] px-[16px]">
           <div>
-            <h1 className="font-greatmango font-bold text-[#1B1B1B] text-[24px] leading-[32px]">
+            <h1 className="font-greatmango font-bold text-[#1B1B1B] text-[24px] leading-[32px] text-center lg:text-start">
               Hi, I’m Oluwatobi Adebola (Tobi Allen)
             </h1>
-            <p className="font-neuemachina uppercase font-bold text-[#333333] text-[12px] tracking-[2px]">Product Design | Front End | BackEnd</p>
+            <p className="font-neuemachina uppercase font-bold text-[#414141] text-[12px] tracking-[2px] text-center lg:text-start">Product Design | Front End | BackEnd</p>
           </div>
-          <p>me@tobiallen.com</p>
-          <div className="flex flex-row gap-2">
+          <p className="flex text-[#414141] text-[14px] leading-[22px] items-center justify-center">me@tobiallen.com</p>
+          <div className="flex flex-wrap gap-2 items-center justify-center">
             <a href="">Resume</a> | <a href="">LinkedIn</a> | <a href="">Github</a> | <a href="">Dribbble</a> | <a href="">X (Twitter)</a> | <a href="">Instagram</a> | <a href="">Contact</a></div>
         </div>
       </div>
