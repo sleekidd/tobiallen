@@ -8,7 +8,7 @@ import logoorange from '../assets/logo-orange.svg'
 
 const Home: React.FC = () => {
   return (
-    <div className="max-w-[1092px] bg-[#F9F9F9] px-[16px]">
+    <div className="w-full max-w-[1092px] bg-[#F9F9F9] px-[16px]">
       {/* Header Section */}
       <Header />
 
@@ -113,7 +113,7 @@ const Home: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col gap-[32px]">
-            <div className="flex flex-row pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[32px]">
+            <div className="flex flex-col lg:flex-row pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[32px]">
               <div className="flex flex-col w-full max-w-[453px] gap-[16px] pb-[44px]">
                 <div className="flex flex-col gap-[8px] items-start">
                   <img src={zoom} alt="" />
@@ -139,7 +139,7 @@ const Home: React.FC = () => {
                 <img src={portfolioimg} alt="" />
               </div>
             </div>
-            <div className="flex flex-row gap-[32px]">
+            <div className="flex flex-col lg:flex-row gap-[32px]">
               <div className="flex flex-col pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[16px]">
                 <div className="flex flex-col w-full max-w-[453px] gap-[16px]">
                   <div className="flex flex-col gap-[8px] items-start">
