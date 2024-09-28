@@ -19,7 +19,7 @@ const Header: React.FC = () => {
             <h1 className="font-greatmango font-bold text-[#1B1B1B] text-[24px] leading-[32px]">
               Hi, I’m Oluwatobi Adebola (Tobi Allen)
             </h1>
-            <p className="font-neuemachina uppercase font-bold text-[12px] tracking-[2px]">Product Design | Front End | BackEnd</p>
+            <p className="font-neuemachina uppercase font-bold text-[#333333] text-[12px] tracking-[2px]">Product Design | Front End | BackEnd</p>
           </div>
           <p>me@tobiallen.com</p>
           <div className="flex flex-row gap-2">
