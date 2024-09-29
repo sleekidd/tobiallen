@@ -34,7 +34,7 @@ const InfiniteScrollSkills: React.FC = () => {
               key={index}
               className="bg-white flex flex-row items-center justify-center gap-2 px-[16px] py-[16px] rounded-[8px] border-[1px] border-[#EEEEEE] min-w-fit whitespace-nowrap"
             >
-              <img src={`/src/assets/${skill.icon}`} alt={skill.name} />
+              <img src={`/public/icons/${skill.icon}`} alt={skill.name} />
               <p className="text-[16px]">{skill.name}</p>
             </div>
           ))}
