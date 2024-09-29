@@ -5,6 +5,7 @@ import portfolioimg from "../assets/portfolio-img.svg";
 import zoom from "../assets/logos_zoom-icon.svg";
 import logopurple from '../assets/logo-purple.svg'
 import logoorange from '../assets/logo-orange.svg'
+import InfiniteScrollSkills from "../components/InfiniteScrollSkills";
 
 const Home: React.FC = () => {
   return (
@@ -96,7 +97,9 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Features Section */}
+      <InfiniteScrollSkills />
+
+      {/* Portfolio Section */}
       <section className="container mx-auto mb-[56px]">
         <div className="flex flex-col gap-[8px]">
           <div className="flex flex-col lg:flex-row py-[8px] gap-[24px] lg:gap-0">
