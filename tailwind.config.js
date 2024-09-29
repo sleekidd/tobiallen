@@ -13,7 +13,7 @@ export default {
         },
         scrollMobile: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-564%)' },
+          '100%': { transform: 'translateX(-465%)' },
         },
       },
       animation: {
