@@ -9,11 +9,16 @@ export default {
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(-174.5%)' },
+        },
+        scrollMobile: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-564%)' },
         },
       },
       animation: {
         scroll: 'scroll 20s linear infinite',
+        scrollMobile: 'scrollMobile 20s linear infinite',
       },
       boxShadow: {
         'custom': '0 0 4px 0 rgba(0, 0, 0, 0.1)', // Custom shadow definition

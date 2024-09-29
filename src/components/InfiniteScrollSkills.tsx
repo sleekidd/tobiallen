@@ -28,11 +28,11 @@ const InfiniteScrollSkills: React.FC = () => {
 
       {/* Horizontal Scrolling Section */}
       <div className="relative w-full overflow-hidden">
-        <div className="flex animate-scroll gap-4">
+        <div className="flex animate-scrollMobile lg:animate-scroll gap-4">
           {skills.concat(skills).map((skill, index) => (
             <div
               key={index}
-              className="bg-white flex flex-row items-center justify-center gap-2 px-[16px] py-[8px] lg:py-[16px] rounded-[8px] border-[1px] border-[#EEEEEE] min-w-fit whitespace-nowrap"
+              className="bg-white flex flex-row items-center justify-center gap-2 px-[16px] py-[16px] rounded-[8px] border-[1px] border-[#EEEEEE] min-w-fit whitespace-nowrap"
             >
               <img src={`/icons/${skill.icon}`} alt={skill.name} />
               <p className="text-[16px]">{skill.name}</p>
