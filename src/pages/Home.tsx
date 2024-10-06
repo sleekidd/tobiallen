@@ -1,9 +1,11 @@
 import React from "react";
 import Header from "../components/Header";
 import logotest from "../assets/logo-test.svg";
+import zerobanner from "../assets/zero-banner.svg";
 import portfolioimg from "../assets/portfolio-img.svg";
-import zoom from "../assets/logos_zoom-icon.svg";
-import logopurple from '../assets/logo-purple.svg'
+import zeroec from "../assets/zeroec-logo.svg";
+import fcmblogo from "../assets/fcmb-logo.svg";
+import fcmbbanner from "../assets/fcmb-banner.svg";
 import logoorange from '../assets/logo-orange.svg'
 import InfiniteScrollSkills from "../components/InfiniteScrollSkills";
 
@@ -119,7 +121,7 @@ const Home: React.FC = () => {
             <div className="flex flex-col lg:flex-row pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[16px] lg:gap-[32px]">
               <div className="flex flex-col w-full max-w-[453px] gap-[16px] lg:pb-[44px] pr-[32px] lg:pr-[0]">
                 <div className="flex flex-col gap-[8px] items-start">
-                  <img src={zoom} alt="" />
+                  <img src={zeroec} alt="" />
                   <p className="text-start">Zero Efforts Creatives</p>
                 </div>
                 <div>
@@ -139,14 +141,14 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <div className="flex flex-col w-full">
-                <img src={portfolioimg} alt="" />
+                <img src={zerobanner} alt="" />
               </div>
             </div>
             <div className="flex flex-col lg:flex-row gap-[32px]">
               <div className="flex flex-col pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[16px]">
                 <div className="flex flex-col w-full max-w-[453px] gap-[16px] pr-[32px] lg:pr-[0]">
                   <div className="flex flex-col gap-[8px] items-start">
-                    <img src={logopurple} alt="" />
+                    <img src={fcmblogo} alt="" />
                     <p className="text-start">FCMB</p>
                   </div>
                   <div>
@@ -162,7 +164,7 @@ const Home: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex flex-col w-full">
-                  <img src={portfolioimg} alt="" />
+                  <img src={fcmbbanner} alt="" />
                 </div>
               </div>
               <div className="flex flex-col pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[16px]">
@@ -184,7 +186,7 @@ const Home: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex flex-col w-full">
-                  <img src={portfolioimg} alt="" />
+                  <img src={fcmbbanner} alt="" />
                 </div>
               </div>
             </div>
