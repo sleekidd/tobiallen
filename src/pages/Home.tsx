@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../components/Header";
 import logotest from "../assets/logo-test.svg";
 import zerobanner from "../assets/zero-banner.svg";
-import portfolioimg from "../assets/portfolio-img.svg";
 import zeroec from "../assets/zeroec-logo.svg";
 import fcmblogo from "../assets/fcmb-logo.svg";
 import fcmbbanner from "../assets/fcmb-banner.svg";
