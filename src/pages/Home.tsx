@@ -33,7 +33,7 @@ const Home: React.FC = () => {
             </div>
             <div className="flex flex-col items-start gap-[24px]">
               <p className="text-start text-[16px] leading-[28px] text-[#333333]">
-              A versatile UI/UX designer and engineer providing innovative and intuitive solutions for complex web and mobile applications by converting business & user needs to a data-driven and interactively tested user-centered design. 
+              A versatile Product/UI/UX Designer and Software Developer providing innovative and intuitive solutions for complex web and mobile applications by converting business & user needs to a data-driven and interactively tested user-centered design. 
 
 Seeking new but challenging opportunities in any progressive organization that will effectively utilize my skills and vast experience in multiple IT companies for client satisfaction, development of the organization and afford me a chance at self-improvement and career advancement.
               </p>

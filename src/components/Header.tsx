@@ -1,8 +1,8 @@
 import React from "react";
-import headerimg from "../assets/banner-image.svg";
+import headerimg from "../assets/header-banner-image.svg";
 import profilepic from "../assets/tobi-allen.svg";
 import profilepicmobile from '../assets/A7R03071-Edit 1 1 mobile.svg';
-import banner_img_mobile from '../assets/banner-img-mobile.svg';
+import banner_img_mobile from '../assets/header-banner-mobile.svg';
 
 const Header: React.FC = () => {
   return (
