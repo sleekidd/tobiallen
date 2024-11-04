@@ -1,11 +1,14 @@
 import React from "react";
 import Header from "../components/Header";
-import logotest from "../assets/logo-test.svg";
+import hoskilogo from "../assets/hoskilogo.svg";
+import mintynlogo from "../assets/mintyn-logo.svg";
+import sbsclogo from "../assets/sbsc-logo.svg";
 import zerobanner from "../assets/zero-banner.svg";
 import zeroec from "../assets/zeroec-logo.svg";
 import fcmblogo from "../assets/fcmb-logo.svg";
 import fcmbbanner from "../assets/fcmb-banner.svg";
-import logoorange from '../assets/logo-orange.svg'
+import laflogo from "../assets/LAFlogo.svg";
+import lafbanner from "../assets/lafbanner.svg";
 import InfiniteScrollSkills from "../components/InfiniteScrollSkills";
 
 const Home: React.FC = () => {
@@ -30,14 +33,11 @@ const Home: React.FC = () => {
             </div>
             <div className="flex flex-col items-start gap-[24px]">
               <p className="text-start text-[16px] leading-[28px] text-[#333333]">
-                I am a Digital Product Designer with Web Development Background
-                based in Lagos, Nigeria. I am a Digital Product Designer with
-                Web Development Background based in Lagos, NigeriaI am a Digital
-                Product Designer with Web Development Background based in Lagos,
-                NigeriaI am a Digital Product Designer with Web Development
-                Background based in Lagos, Nigeria
+              A versatile UI/UX designer and engineer providing innovative and intuitive solutions for complex web and mobile applications by converting business & user needs to a data-driven and interactively tested user-centered design. 
+
+Seeking new but challenging opportunities in any progressive organization that will effectively utilize my skills and vast experience in multiple IT companies for client satisfaction, development of the organization and afford me a chance at self-improvement and career advancement.
               </p>
-              <a href="">Read More</a>
+              {/* <a href="">Read More</a> */}
             </div>
           </div>
           <div className="flex flex-col w-full bg-white rounded-[8px] px-[32px] py-[48px] gap-[24px] items-start shadow-custom">
@@ -48,7 +48,7 @@ const Home: React.FC = () => {
             </div>
             <div className="flex flex-col items-start gap-[24px]">
               <div className="flex flex-row items-start gap-[12px]">
-                <img src={logotest} alt="" />
+                <img src={hoskilogo} alt="" />
                 <div className="flex flex-col items-start">
                   <h4 className="uppercase text-[#333333] text-[16px] leading-[24px] font-bold">
                     UI/UX & Front End
@@ -63,7 +63,7 @@ const Home: React.FC = () => {
               </div>
 
               <div className="flex flex-row items-start gap-[12px]">
-                <img src={logotest} alt="" />
+                <img src={mintynlogo} alt="" />
                 <div className="flex flex-col items-start">
                   <h4 className="uppercase text-[#333333] text-[16px] leading-[24px] font-bold">
                     Product Designer
@@ -78,7 +78,7 @@ const Home: React.FC = () => {
               </div>
 
               <div className="flex flex-row items-start gap-[12px]">
-                <img src={logotest} alt="" />
+                <img src={sbsclogo} alt="" />
                 <div className="flex flex-col items-start">
                   <h4 className="uppercase text-[#333333] text-[16px] leading-[24px] font-bold">
                     UI/UX Designer
@@ -169,12 +169,12 @@ const Home: React.FC = () => {
               <div className="flex flex-col pl-[32px] pt-[48px] bg-white shadow-custom rounded-[8px] gap-[16px]">
                 <div className="flex flex-col w-full max-w-[453px] gap-[16px] pr-[32px] lg:pr-[0]">
                   <div className="flex flex-col gap-[8px] items-start">
-                    <img src={logoorange} alt="" />
-                    <p className="text-start">Kaloscare</p>
+                    <img src={laflogo} alt="" />
+                    <p className="text-start">Lost And Faund</p>
                   </div>
                   <div>
                     <h1 className="font-greatmango font-bold text-[#1B1B1B] text-[24px] leading-[24px] text-start">
-                    Product Design
+                    Product Design | Fullstack Dev
                     </h1>
                   </div>
                   <div className="flex flex-col gap-[24px] items-start justify-start">
@@ -185,7 +185,7 @@ const Home: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex flex-col w-full">
-                  <img src={fcmbbanner} alt="" />
+                  <img src={lafbanner} alt="" />
                 </div>
               </div>
             </div>

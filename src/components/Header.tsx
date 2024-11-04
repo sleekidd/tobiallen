@@ -31,7 +31,7 @@ const Header: React.FC = () => {
           </div>
           <p className="flex flex-row text-[#414141] text-[14px] leading-[22px] items-center justify-center lg:items-start lg:justify-start">me@tobiallen.com</p>
           <div className="flex flex-wrap gap-2 items-center justify-center">
-            <a href="">Resume</a> | <a href="">LinkedIn</a> | <a href="">Github</a> | <a href="">Dribbble</a> | <a href="">X (Twitter)</a> | <a href="">Instagram</a> | <a href="">Contact</a></div>
+            <a href="">Resume</a> | <a href="https://www.linkedin.com/in/oluwatobi-adebola/" target="_blank">LinkedIn</a> | <a href="https://github.com/sleekidd" target="_blank">Github</a> | <a href="https://dribbble.com/thetobiallen" target="_blank">Dribbble</a> | <a href="https://x.com/thetobiallen" target="_blank">X (Twitter)</a> | <a href="https://www.instagram.com/sleekidd/" target="_blank">Instagram</a> | <a href="">Contact</a></div>
         </div>
       </div>
     </div>
